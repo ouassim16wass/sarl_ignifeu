@@ -355,6 +355,9 @@
         document.addEventListener('DOMContentLoaded', function() {
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
+
+            if (!menuBtn || !mobileMenu) return;
+
             const menuIcon = menuBtn.querySelector('.material-symbols-outlined');
             let isMenuOpen = false;
 
@@ -362,8 +365,10 @@
                 isMenuOpen = !isMenuOpen;
                 if (isMenuOpen) {
                     mobileMenu.classList.remove('hidden');
+                    mobileMenu.classList.add('active');
                     menuIcon.textContent = 'close';
                 } else {
+                    mobileMenu.classList.remove('active');
                     mobileMenu.classList.add('hidden');
                     menuIcon.textContent = 'menu';
                 }
@@ -372,6 +377,7 @@
             // Close menu when clicking on a link
             document.querySelectorAll('.mobile-nav-link').forEach(link => {
                 link.addEventListener('click', function() {
+                    mobileMenu.classList.remove('active');
                     mobileMenu.classList.add('hidden');
                     menuIcon.textContent = 'menu';
                     isMenuOpen = false;
