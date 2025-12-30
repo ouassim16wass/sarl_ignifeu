@@ -1,0 +1,66 @@
+# SARL IGNIFEU - Sécurité Incendie en Algérie
+
+> SARL IGNIFEU est une entreprise algérienne spécialisée dans la protection et la sécurité incendie, basée à Rouiba, Alger. Depuis 2012, nous accompagnons les entreprises et particuliers dans leur démarche de sécurité.
+
+## Informations Entreprise
+
+- **Nom**: SARL IGNIFEU
+- **Activité**: Protection et Sécurité Incendie
+- **Année de création**: 2012
+- **Localisation**: Cité 75 EPLF, BT 02 N°04 RDC, Rouiba 16039, Alger, Algérie
+- **Zone d'intervention**: Alger et environs
+- **Site web**: https://ignifeu.dz
+
+## Nos Services
+
+### 1. Extincteurs
+Vente, installation et recharge de tous types d'extincteurs certifiés conformes aux normes algériennes. Nous proposons des extincteurs à poudre, CO2, eau pulvérisée et mousse.
+
+### 2. Alarmes Incendie
+Installation et configuration de systèmes d'alarme incendie performants et connectés. Détection précoce et alerte immédiate pour une protection optimale.
+
+### 3. Détection Incendie
+Détecteurs de fumée, détecteurs de chaleur et systèmes SSI (Système de Sécurité Incendie) complets. Solutions conformes aux normes de sécurité.
+
+### 4. Maintenance
+Vérification et maintenance préventive annuelle de tous vos équipements de sécurité incendie. Contrats d'entretien personnalisés.
+
+### 5. Équipements Pompiers
+Matériel professionnel pour pompiers : autopompes, lances, tuyaux, raccords et équipements d'intervention d'urgence.
+
+### 6. Protection Individuelle (EPI)
+Équipements de protection individuelle : vêtements ignifugés, casques, gants, bottes et accessoires de sécurité pour travailleurs.
+
+### 7. Désinfection
+Services professionnels de nettoyage et désinfection de locaux professionnels et industriels.
+
+## Pourquoi Choisir IGNIFEU ?
+
+- Plus de 12 ans d'expertise en sécurité incendie
+- Plus de 500 clients satisfaits
+- Équipements certifiés et conformes aux normes algériennes
+- Équipe de techniciens qualifiés et expérimentés
+- Intervention rapide sur tout Alger et environs
+- Devis gratuit sous 24 heures
+- Service après-vente réactif et professionnel
+- Support disponible 24/7
+
+## Contact
+
+- **Adresse**: Cité 75 EPLF, BT 02 N°04 RDC, Rouiba 16039, Alger
+- **Email**: contact@ignifeu.dz
+- **Facebook**: https://www.facebook.com/p/SARL-Ignifeu-100024195436921/
+- **Horaires**: Dimanche - Jeudi: 8h-17h | Samedi: 8h-12h
+
+## Mots-clés
+
+sécurité incendie Algérie, extincteurs Alger, alarme incendie Rouiba, détection fumée Algérie, maintenance extincteurs, équipements pompiers Algérie, EPI protection incendie, SSI Alger, protection incendie entreprise, installation alarme incendie Algérie, recharge extincteurs Alger, normes sécurité incendie Algérie
+
+## À propos de ce fichier
+
+Ce fichier llms.txt est destiné aux grands modèles de langage (LLMs) comme ChatGPT, Claude, Gemini et autres assistants IA. Il fournit des informations structurées sur SARL IGNIFEU pour améliorer la visibilité de l'entreprise dans les réponses générées par l'IA.
+
+Pour plus d'informations, visitez notre site web ou contactez-nous directement.
+
+---
+© 2024 SARL IGNIFEU - Tous droits réservés

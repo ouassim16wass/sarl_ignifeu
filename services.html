@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Services - IGNIFEU | Courant Faible et Fort Alger</title>
+    <meta name="description" content="Découvrez tous les services IGNIFEU : vidéosurveillance, contrôle d'accès, détection incendie, smart home, réseaux, électricité à Alger.">
+    <meta name="keywords" content="vidéosurveillance Alger, contrôle accès, détection incendie, smart home domotique, courant fort, réseaux informatiques">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "primary-dark": "#0d42af",
+                        "accent-red": "#dc2626",
+                        "accent-orange": "#F77F00",
+                        "accent-yellow": "#FCBF49",
+                        "background-light": "#f8f9fc",
+                        "background-dark": "#101622",
+                        "dark-secondary": "#1a2332",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white overflow-x-hidden antialiased">
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="sticky top-0 z-50 w-full bg-white dark:bg-dark-secondary border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="flex items-center gap-3 text-[#0d121b] dark:text-white">
+                    <div class="size-10 flex items-center justify-center text-accent-red">
+                        <span class="material-symbols-outlined text-4xl">local_fire_department</span>
+                    </div>
+                    <h1 class="text-2xl font-bold tracking-tight">SARL IGNIFEU</h1>
+                </a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="index.html" class="text-[#0d121b] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors">Accueil</a>
+                    <a href="services.html" class="text-primary text-sm font-bold">Services</a>
+                    <a href="apropos.html" class="text-[#0d121b] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors">À propos</a>
+                    <a href="contact.html" class="text-[#0d121b] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors">Contact</a>
+                    <a href="contact.html" class="flex items-center justify-center h-11 px-6 rounded-lg bg-gradient-to-r from-accent-red to-accent-orange text-white text-sm font-bold transition-all">
+                        Demander un Devis
+                    </a>
+                </div>
+                <button id="mobile-menu-btn" class="lg:hidden text-[#0d121b] dark:text-white p-2">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden hidden bg-white dark:bg-dark-secondary border-t border-gray-200 dark:border-gray-700">
+            <div class="px-4 py-6 flex flex-col gap-4">
+                <a href="index.html" class="mobile-nav-link text-[#0d121b] dark:text-white hover:text-primary text-base font-medium py-2 transition-colors">Accueil</a>
+                <a href="services.html" class="mobile-nav-link text-primary text-base font-bold py-2 transition-colors">Services</a>
+                <a href="apropos.html" class="mobile-nav-link text-[#0d121b] dark:text-white hover:text-primary text-base font-medium py-2 transition-colors">À propos</a>
+                <a href="contact.html" class="mobile-nav-link text-[#0d121b] dark:text-white hover:text-primary text-base font-medium py-2 transition-colors">Contact</a>
+                <a href="contact.html" class="mt-4 flex items-center justify-center h-12 px-6 rounded-lg bg-gradient-to-r from-accent-red to-accent-orange text-white text-sm font-bold">
+                    Demander un Devis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="relative py-16 md:py-24 bg-gradient-to-b from-background-dark to-dark-secondary text-white overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="images/installation-camera-surveillance.png" alt="Installation caméra de surveillance IGNIFEU" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-b from-background-dark/80 to-dark-secondary"></div>
+        </div>
+        <div class="relative max-w-[960px] mx-auto px-4 text-center">
+            <span class="text-accent-orange font-bold text-sm tracking-widest uppercase mb-4 block">Nos Expertises</span>
+            <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-6">Nos Services</h1>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+                Spécialistes en courant faible et fort, nous offrons des solutions complètes pour la sécurité et l'électricité de vos installations.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES GRID ========== -->
+    <section class="py-20 bg-background-light dark:bg-background-dark">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Service 1: Vidéosurveillance -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-accent-red mb-6 group-hover:bg-accent-red group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">videocam</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Vidéosurveillance</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Installation de systèmes de vidéosurveillance HD et IP pour sécuriser vos locaux professionnels et résidentiels.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Caméras HD et IP
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Enregistreurs DVR/NVR
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Accès à distance
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-accent-red font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 2: Anti-intrusion -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-accent-orange mb-6 group-hover:bg-accent-orange group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">shield_lock</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Anti-intrusion</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Systèmes d'alarme et de détection d'intrusion pour protéger vos biens et vos locaux contre les effractions.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-orange text-lg">check_circle</span>
+                            Centrales d'alarme
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-orange text-lg">check_circle</span>
+                            Détecteurs de mouvement
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-orange text-lg">check_circle</span>
+                            Sirènes et alertes
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-accent-orange font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 3: Contrôle d'accès -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">badge</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Contrôle d'accès</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Systèmes de contrôle d'accès par badge, biométrie ou code pour sécuriser les entrées de vos locaux.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Lecteurs de badges
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Biométrie (empreintes)
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Serrures connectées
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 4: Détection Incendie -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-accent-red mb-6 group-hover:bg-accent-red group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">local_fire_department</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Détection Incendie</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Systèmes de détection incendie complets : détecteurs de fumée, chaleur et centrales SSI.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Détecteurs de fumée
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Détecteurs de chaleur
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Systèmes SSI
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-accent-red font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 5: Réseaux -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">lan</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Réseaux Info-Téléphoniques</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Installation de réseaux informatiques et téléphoniques professionnels pour votre entreprise.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Câblage structuré
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Baies de brassage
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Téléphonie IP
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 6: Smart Home -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-yellow-50 dark:bg-yellow-900/20 flex items-center justify-center text-accent-yellow mb-6 group-hover:bg-accent-yellow group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">home_iot_device</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Smart Home</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Solutions domotiques pour une maison connectée : confort, sécurité et économies d'énergie.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-yellow text-lg">check_circle</span>
+                            Éclairage intelligent
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-yellow text-lg">check_circle</span>
+                            Volets automatisés
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-yellow text-lg">check_circle</span>
+                            Contrôle à distance
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-accent-yellow font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 7: Courant Fort -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-accent-orange mb-6 group-hover:bg-accent-orange group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">bolt</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Courant Fort</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Installations électriques complètes, distribution et mise aux normes de vos locaux professionnels.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-orange text-lg">check_circle</span>
+                            Tableaux électriques
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-orange text-lg">check_circle</span>
+                            Distribution électrique
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-orange text-lg">check_circle</span>
+                            Mise aux normes
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-accent-orange font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 8: Lutte Incendie -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-accent-red mb-6 group-hover:bg-accent-red group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">fire_extinguisher</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Lutte Incendie</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Équipements de lutte contre l'incendie : extincteurs, RIA et systèmes d'extinction automatique.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Extincteurs certifiés
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            RIA (Robinets d'Incendie)
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-accent-red text-lg">check_circle</span>
+                            Recharge annuelle
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-accent-red font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+                <!-- Service 9: Automatisme -->
+                <div class="bg-white dark:bg-dark-secondary rounded-2xl p-8 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all group">
+                    <div class="size-16 rounded-2xl bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+                        <span class="material-symbols-outlined text-4xl">settings_remote</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-[#0d121b] dark:text-white mb-4">Automatisme</h3>
+                    <p class="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
+                        Installation de portails automatiques, barrières et systèmes motorisés pour vos accès.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Portails automatiques
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Barrières levantes
+                        </li>
+                        <li class="flex items-center gap-3 text-sm text-[#0d121b] dark:text-gray-300">
+                            <span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+                            Télécommandes
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
+                        Demander un devis <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="py-20 bg-gradient-to-r from-accent-red via-accent-orange to-accent-red">
+        <div class="max-w-[960px] mx-auto px-4 text-center text-white">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                Vous avez un projet ?
+            </h2>
+            <p class="text-white/90 text-lg max-w-2xl mx-auto mb-8">
+                Nos experts sont à votre disposition pour une étude personnalisée et un devis gratuit sans engagement.
+            </p>
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="contact.html" class="inline-flex items-center justify-center h-14 px-10 rounded-lg bg-white hover:bg-gray-100 text-accent-red text-lg font-bold transition-all shadow-xl">
+                    Contactez-nous
+                </a>
+                <a href="tel:+213550312126" class="inline-flex items-center justify-center h-14 px-10 rounded-lg bg-white/10 hover:bg-white/20 text-white text-lg font-bold transition-all border border-white/30">
+                    <span class="material-symbols-outlined mr-2">call</span>
+                    0550 31 21 26
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-[#0a1525] text-white pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-accent-red text-3xl">local_fire_department</span>
+                        <h2 class="text-xl font-bold">SARL IGNIFEU</h2>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Entreprise familiale spécialisée en courant faible et fort depuis 2012.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-lg font-bold">Liens Rapides</h3>
+                    <ul class="flex flex-col gap-2 text-sm text-gray-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Accueil</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="apropos.html" class="hover:text-white transition-colors">À propos</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-lg font-bold">Contact</h3>
+                    <div class="flex flex-col gap-3 text-sm text-gray-400">
+                        <div class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                            <span>Cité 75 EPLF, BT 02 N°04<br>Rouiba 16039, Alger</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-green-500 text-xl mt-0.5">call</span>
+                            <div class="flex flex-col">
+                                <a href="tel:+213550312126" class="hover:text-white transition-colors">0550 31 21 26</a>
+                                <a href="tel:+213550698828" class="hover:text-white transition-colors">0550 69 88 28</a>
+                                <a href="tel:+213550657909" class="hover:text-white transition-colors">0550 65 79 09</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-accent-orange text-xl">mail</span>
+                            <a href="mailto:ignifeusarl@gmail.com" class="hover:text-white transition-colors">ignifeusarl@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-lg font-bold">Réseaux</h3>
+                    <a href="https://www.facebook.com/p/SARL-Ignifeu-100024195436921/" target="_blank" class="size-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                <p>&copy; 2024 SARL IGNIFEU. Tous droits réservés.</p>
+                <p class="flex items-center gap-2">Site réalisé par <a href="https://www.linkedin.com/in/ouassim-megrad-0a2935294" target="_blank" class="flex items-center gap-1 text-primary hover:text-white transition-colors font-medium"><img src="images/MegLabs-logo.png" alt="MegLabs" class="h-5 w-auto"> MegLabs</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = menuBtn.querySelector('.material-symbols-outlined');
+            let isMenuOpen = false;
+
+            menuBtn.addEventListener('click', function() {
+                isMenuOpen = !isMenuOpen;
+                if (isMenuOpen) {
+                    mobileMenu.classList.remove('hidden');
+                    menuIcon.textContent = 'close';
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.textContent = 'menu';
+                }
+            });
+
+            // Close menu when clicking on a link
+            document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.textContent = 'menu';
+                    isMenuOpen = false;
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

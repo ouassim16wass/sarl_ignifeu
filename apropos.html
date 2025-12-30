@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos - IGNIFEU | Sécurité Incendie Alger</title>
+    <meta name="description" content="Découvrez IGNIFEU, votre partenaire de confiance en sécurité incendie depuis 2012. Expertise, professionnalisme et réactivité à Alger.">
+    <meta name="keywords" content="à propos IGNIFEU, sécurité incendie Alger, entreprise protection incendie, histoire IGNIFEU">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "primary-dark": "#0d42af",
+                        "accent-red": "#dc2626",
+                        "accent-orange": "#F77F00",
+                        "accent-yellow": "#FCBF49",
+                        "background-light": "#f8f9fc",
+                        "background-dark": "#101622",
+                        "dark-secondary": "#1a2332",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white overflow-x-hidden antialiased">
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="sticky top-0 z-50 w-full bg-white dark:bg-dark-secondary border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="flex items-center gap-3 text-[#0d121b] dark:text-white">
+                    <div class="size-10 flex items-center justify-center text-accent-red">
+                        <span class="material-symbols-outlined text-4xl">local_fire_department</span>
+                    </div>
+                    <h1 class="text-2xl font-bold tracking-tight">SARL IGNIFEU</h1>
+                </a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="index.html" class="text-[#0d121b] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors">Accueil</a>
+                    <a href="services.html" class="text-[#0d121b] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors">Services</a>
+                    <a href="apropos.html" class="text-primary text-sm font-bold">À propos</a>
+                    <a href="contact.html" class="text-[#0d121b] dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors">Contact</a>
+                    <a href="contact.html" class="flex items-center justify-center h-11 px-6 rounded-lg bg-gradient-to-r from-accent-red to-accent-orange text-white text-sm font-bold transition-all">
+                        Demander un Devis
+                    </a>
+                </div>
+                <button id="mobile-menu-btn" class="lg:hidden text-[#0d121b] dark:text-white p-2">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden hidden bg-white dark:bg-dark-secondary border-t border-gray-200 dark:border-gray-700">
+            <div class="px-4 py-6 flex flex-col gap-4">
+                <a href="index.html" class="mobile-nav-link text-[#0d121b] dark:text-white hover:text-primary text-base font-medium py-2 transition-colors">Accueil</a>
+                <a href="services.html" class="mobile-nav-link text-[#0d121b] dark:text-white hover:text-primary text-base font-medium py-2 transition-colors">Services</a>
+                <a href="apropos.html" class="mobile-nav-link text-primary text-base font-bold py-2 transition-colors">À propos</a>
+                <a href="contact.html" class="mobile-nav-link text-[#0d121b] dark:text-white hover:text-primary text-base font-medium py-2 transition-colors">Contact</a>
+                <a href="contact.html" class="mt-4 flex items-center justify-center h-12 px-6 rounded-lg bg-gradient-to-r from-accent-red to-accent-orange text-white text-sm font-bold">
+                    Demander un Devis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="py-16 md:py-24 bg-gradient-to-b from-background-dark to-dark-secondary text-white">
+        <div class="max-w-[960px] mx-auto px-4 text-center">
+            <span class="text-accent-orange font-bold text-sm tracking-widest uppercase mb-4 block">Qui Sommes-Nous</span>
+            <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-6">À Propos d'IGNIFEU</h1>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+                Plus de 12 ans d'expertise au service de votre sécurité. Découvrez notre histoire, nos valeurs et notre engagement.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== NOTRE HISTOIRE ========== -->
+    <section class="py-20 bg-background-light dark:bg-background-dark">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-accent-red font-bold text-sm tracking-widest uppercase mb-4 block">Notre Histoire</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#0d121b] dark:text-white mb-6">
+                        Depuis 2012, votre partenaire de confiance
+                    </h2>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                        Fondée en 2012 à Rouiba, <strong class="text-[#0d121b] dark:text-white">SARL IGNIFEU</strong> est une entreprise familiale spécialisée dans les travaux de courant faible et fort.
+                    </p>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                        Nous réalisons des installations électriques variées, allant des systèmes de basse tension (réseaux de communication, domotique, sécurité) aux installations de haute tension incluant la distribution électrique.
+                    </p>
+                    <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                        En tant qu'entreprise familiale, nous combinons tradition et expertise, offrant un service personnalisé et une attention particulière aux besoins de nos clients.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="images/installation-alarme-incendie.png" alt="Technicien IGNIFEU installant un système de sécurité incendie" class="rounded-2xl shadow-2xl w-full object-cover">
+                    <div class="absolute -bottom-6 -left-6 bg-gradient-to-r from-accent-red to-accent-orange text-white p-6 rounded-xl shadow-xl">
+                        <div class="text-4xl font-black">+12</div>
+                        <div class="text-sm font-medium">Années d'expérience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== NOS VALEURS ========== -->
+    <section class="py-20 bg-white dark:bg-dark-secondary">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="text-center mb-16">
+                <span class="text-accent-orange font-bold text-sm tracking-widest uppercase mb-4 block">Ce Qui Nous Anime</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-[#0d121b] dark:text-white mb-6">Nos Valeurs</h2>
+                <p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                    Des principes fondamentaux qui guident chacune de nos actions au quotidien.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Valeur 1 -->
+                <div class="text-center p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+                    <div class="size-16 mx-auto rounded-2xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-accent-red mb-6">
+                        <span class="material-symbols-outlined text-4xl">verified</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-3">Qualité</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                        Des équipements certifiés et des installations conformes aux normes les plus strictes.
+                    </p>
+                </div>
+                <!-- Valeur 2 -->
+                <div class="text-center p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+                    <div class="size-16 mx-auto rounded-2xl bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-accent-orange mb-6">
+                        <span class="material-symbols-outlined text-4xl">speed</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-3">Réactivité</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                        Intervention rapide et efficace pour répondre à vos urgences 24h/24.
+                    </p>
+                </div>
+                <!-- Valeur 3 -->
+                <div class="text-center p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+                    <div class="size-16 mx-auto rounded-2xl bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary mb-6">
+                        <span class="material-symbols-outlined text-4xl">handshake</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-3">Confiance</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                        Transparence et honnêteté dans toutes nos relations avec nos clients.
+                    </p>
+                </div>
+                <!-- Valeur 4 -->
+                <div class="text-center p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700">
+                    <div class="size-16 mx-auto rounded-2xl bg-yellow-50 dark:bg-yellow-900/20 flex items-center justify-center text-accent-yellow mb-6">
+                        <span class="material-symbols-outlined text-4xl">school</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-[#0d121b] dark:text-white mb-3">Expertise</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                        Une équipe formée et certifiée, en constante évolution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CHIFFRES CLÉS ========== -->
+    <section class="py-20 bg-gradient-to-r from-background-dark to-dark-secondary text-white">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="text-center mb-16">
+                <span class="text-accent-orange font-bold text-sm tracking-widest uppercase mb-4 block">En Chiffres</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Notre Impact</h2>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-8 rounded-2xl bg-white/5 border border-white/10">
+                    <div class="text-5xl font-black text-accent-orange mb-2">+500</div>
+                    <div class="text-gray-400 font-medium">Clients Satisfaits</div>
+                </div>
+                <div class="text-center p-8 rounded-2xl bg-white/5 border border-white/10">
+                    <div class="text-5xl font-black text-accent-red mb-2">+12</div>
+                    <div class="text-gray-400 font-medium">Années d'Expérience</div>
+                </div>
+                <div class="text-center p-8 rounded-2xl bg-white/5 border border-white/10">
+                    <div class="text-5xl font-black text-accent-yellow mb-2">+1000</div>
+                    <div class="text-gray-400 font-medium">Interventions/An</div>
+                </div>
+                <div class="text-center p-8 rounded-2xl bg-white/5 border border-white/10">
+                    <div class="text-5xl font-black text-primary mb-2">24/7</div>
+                    <div class="text-gray-400 font-medium">Support Client</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== NOTRE ÉQUIPE ========== -->
+    <section class="py-20 bg-background-light dark:bg-background-dark">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="order-2 lg:order-1 relative">
+                    <img src="images/technicien-detecteur-fumee.png" alt="Technicien qualifié IGNIFEU" class="rounded-2xl shadow-2xl w-full object-cover">
+                </div>
+                <div class="order-1 lg:order-2">
+                    <span class="text-accent-red font-bold text-sm tracking-widest uppercase mb-4 block">Notre Équipe</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#0d121b] dark:text-white mb-6">
+                        Des professionnels qualifiés à votre service
+                    </h2>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
+                        Notre équipe est composée de techniciens formés et certifiés, passionnés par leur métier et dédiés à votre sécurité.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-accent-red text-2xl mt-0.5">check_circle</span>
+                            <div>
+                                <h4 class="font-bold text-[#0d121b] dark:text-white">Techniciens certifiés</h4>
+                                <p class="text-gray-500 dark:text-gray-400 text-sm">Formation continue et certifications à jour</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-accent-orange text-2xl mt-0.5">check_circle</span>
+                            <div>
+                                <h4 class="font-bold text-[#0d121b] dark:text-white">Expérience terrain</h4>
+                                <p class="text-gray-500 dark:text-gray-400 text-sm">Des années d'intervention sur tous types de sites</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-primary text-2xl mt-0.5">check_circle</span>
+                            <div>
+                                <h4 class="font-bold text-[#0d121b] dark:text-white">Service client dédié</h4>
+                                <p class="text-gray-500 dark:text-gray-400 text-sm">Accompagnement personnalisé de A à Z</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="py-20 bg-gradient-to-r from-accent-red via-accent-orange to-accent-red">
+        <div class="max-w-[960px] mx-auto px-4 text-center text-white">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                Prêt à sécuriser vos locaux ?
+            </h2>
+            <p class="text-white/90 text-lg max-w-2xl mx-auto mb-8">
+                Contactez-nous dès aujourd'hui pour une étude personnalisée et un devis gratuit sans engagement.
+            </p>
+            <a href="contact.html" class="inline-flex items-center justify-center h-14 px-10 rounded-lg bg-white hover:bg-gray-100 text-accent-red text-lg font-bold transition-all shadow-xl">
+                Contactez-nous
+            </a>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-[#0a1525] text-white pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div class="flex flex-col gap-4">
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-accent-red text-3xl">local_fire_department</span>
+                        <h2 class="text-xl font-bold">SARL IGNIFEU</h2>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Entreprise familiale spécialisée en courant faible et fort depuis 2012.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-lg font-bold">Liens Rapides</h3>
+                    <ul class="flex flex-col gap-2 text-sm text-gray-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors">Accueil</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="apropos.html" class="hover:text-white transition-colors">À propos</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-lg font-bold">Contact</h3>
+                    <div class="flex flex-col gap-3 text-sm text-gray-400">
+                        <div class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                            <span>Cité 75 EPLF, BT 02 N°04<br>Rouiba 16039, Alger</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-green-500 text-xl mt-0.5">call</span>
+                            <div class="flex flex-col">
+                                <a href="tel:+213550312126" class="hover:text-white transition-colors">0550 31 21 26</a>
+                                <a href="tel:+213550698828" class="hover:text-white transition-colors">0550 69 88 28</a>
+                                <a href="tel:+213550657909" class="hover:text-white transition-colors">0550 65 79 09</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-accent-orange text-xl">mail</span>
+                            <a href="mailto:ignifeusarl@gmail.com" class="hover:text-white transition-colors">ignifeusarl@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-lg font-bold">Réseaux</h3>
+                    <a href="https://www.facebook.com/p/SARL-Ignifeu-100024195436921/" target="_blank" class="size-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                <p>&copy; 2024 SARL IGNIFEU. Tous droits réservés.</p>
+                <p class="flex items-center gap-2">Site réalisé par <a href="https://www.linkedin.com/in/ouassim-megrad-0a2935294" target="_blank" class="flex items-center gap-1 text-primary hover:text-white transition-colors font-medium"><img src="images/MegLabs-logo.png" alt="MegLabs" class="h-5 w-auto"> MegLabs</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = menuBtn.querySelector('.material-symbols-outlined');
+            let isMenuOpen = false;
+
+            menuBtn.addEventListener('click', function() {
+                isMenuOpen = !isMenuOpen;
+                if (isMenuOpen) {
+                    mobileMenu.classList.remove('hidden');
+                    menuIcon.textContent = 'close';
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.textContent = 'menu';
+                }
+            });
+
+            // Close menu when clicking on a link
+            document.querySelectorAll('.mobile-nav-link').forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.textContent = 'menu';
+                    isMenuOpen = false;
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
