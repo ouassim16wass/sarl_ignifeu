@@ -88,6 +88,9 @@ function initPreloader() {
 ============================================ */
 function initNavbar() {
     const navbar = document.getElementById('navbar');
+
+    if (!navbar) return;
+
     const scrollThreshold = 50;
 
     function handleScroll() {
@@ -120,6 +123,9 @@ function initNavbar() {
 function initMobileMenu() {
     const menuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
+
+    if (!menuBtn || !mobileMenu) return;
+
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
     const menuIcon = menuBtn.querySelector('.material-symbols-outlined');
 
