@@ -1,14 +1,11 @@
 # Robots.txt pour SARL IGNIFEU
-# https://ignifeu.dz
+# https://sarl-ignifeu.netlify.app
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ignifeu.dz/sitemap.xml
-
-# LLMs.txt pour les assistants IA
-# https://ignifeu.dz/llms.txt
+Sitemap: https://sarl-ignifeu.netlify.app/sitemap.xml
 
 # Fichiers à ne pas indexer
 Disallow: /merci.html
