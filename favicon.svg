@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Fond blanc pour meilleure visibilité -->
+  <rect width="512" height="512" fill="white" rx="64"/>
+
+  <!-- Bouclier de protection -->
+  <path d="M256 40C256 40 128 80 56 80C56 80 56 224 56 288C56 400 256 480 256 480C256 480 456 400 456 288C456 224 456 80 456 80C384 80 256 40 256 40Z" fill="#dc2626" stroke="#b91c1c" stroke-width="8"/>
+
+  <!-- Intérieur du bouclier -->
+  <path d="M256 72C256 72 152 104 96 104C96 104 96 224 96 280C96 376 256 448 256 448C256 448 416 376 416 280C416 224 416 104 416 104C360 104 256 72 256 72Z" fill="#F77F00" opacity="0.4"/>
+
+  <!-- Caméra de surveillance -->
+  <rect x="144" y="192" width="160" height="112" rx="16" fill="white"/>
+  <circle cx="224" cy="248" r="40" fill="#dc2626"/>
+  <circle cx="224" cy="248" r="20" fill="#991b1b"/>
+  <path d="M304 208L384 160V336L304 288V208Z" fill="white"/>
+
+  <!-- LED de la caméra -->
+  <circle cx="168" cy="212" r="12" fill="#22c55e"/>
+
+  <!-- Checkmark de validation -->
+  <path d="M160 360L208 408L352 264" stroke="#FCBF49" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
